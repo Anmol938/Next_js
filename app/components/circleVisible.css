@@ -1,0 +1,28 @@
+.circular-image-slider {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    flex: 0 0 calc(100% / 3); /* Adjust the width based on the number of visible images */
+    height: auto;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  

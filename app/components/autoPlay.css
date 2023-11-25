@@ -1,0 +1,23 @@
+.auto-play-slider {
+  width: 300px; /* Adjust the width as per your design */
+  margin: 0 auto; /* Center the slider horizontally */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+  transition: opacity 0.5s ease;
+}
+
+.active {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Add any additional styling for your slider, such as navigation buttons or indicators */
